@@ -51,6 +51,45 @@ Please read the [motivation](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET1.ipynb)
 
 ![EDA DB DIAGRAM](img/db_diagram_eda.png)
 
+## Relationship of the Tables in Schema eda.
+
+
+The name of the table 'king_county_house_details' is misleading because it suggests that it is merely an attribute table associated with a main table.
+
+In this case, the table ‘king_county_house_details’ is actually the main entity table. It also contains attributes related to the entity, such as geographical information, topological data about the properties, price details, among other things.
+
+This is a 1:n relationship. Properties may have been sold multiple times. Therefore, the table ‘eda.king_county_house_sales’ represents the ‘n’ side of the relationship.
+
+All potential entries in the ‘eda.king_county_house_sales’ table that do not have a corresponding entry in the ‘king_county_house_details’ table cannot be used, because no attributes are known for them apart from the sale date and price.
+
+The database does not restrict orphaned entries in the ‘king_county_house_sales’ table. The necessary FOREIGN KEY constraints are missing.
+
+Therefore, the following JOIN operation makes sense:
+```
+SELECT
+	*
+FROM
+	eda.king_county_house_details d
+JOIN eda.king_county_house_sales s ON
+	s.house_id = d.id
+```
+
+
+There are 176 properties that have been sold more than once.
+```
+SELECT house_id, COUNT(*)
+FROM king_county_house_sales s
+GROUP BY house_id
+HAVING COUNT(*) > 1;
+```
+### Create CSV-File
+
+Excecute the SQL-statement above, in order to create the file 'house_export_panda.csv', and store it in directory ./data
+
+Use [CREATE DB NOTEBOOK](./EDA_00_CREATE_CSV_FILE.ipynb) as template.
+
+Please also download [download](https://simplemaps.com/data/us-zips) uszips.csv for free and add it into the ./data folder.
+
 ## Project Assignments
 
 This project is part of an assignment during the SPICED BOOTCAMP course, Data Science and AI.
