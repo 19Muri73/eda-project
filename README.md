@@ -15,9 +15,9 @@ Please read the [motivation](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET1.ipynb)
 - Used scatter plots to visualize the relationship between price and distance.
 - Fitted a regression line to observe the trend.
 
-[Notebook SNIPPET 1](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET1.ipynb)
+[Notebook SNIPPET 1](./EDA_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET1.ipynb)
 
-[Notebook SNIPPET 2](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_V2_SNIPPET2.ipynb)
+[Notebook SNIPPET 2](./EDA_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET2.ipynb)
 
 ---
 
@@ -29,7 +29,7 @@ Please read the [motivation](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET1.ipynb)
 - Applied multiple linear regression to assess the combined impact.
 - Visualized residuals to check model fit.
 
-[Notebook SNIPPET](./MURAT_HYPOTHESIS_02_LIVINGSPACE_SNIPPET.ipynb)
+[Notebook SNIPPET](./EDA_HYPOTHESIS_02_LIVINGSPACE_SNIPPET.ipynb)
 
 ---
 
@@ -41,7 +41,7 @@ Please read the [motivation](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET1.ipynb)
 - Used boxplots and histograms to compare grade distributions across ZIP codes.
 - Conducted ANOVA test to verify if differences are statistically significant.
 
-[Notebook SNIPPET](./MURAT_HYPOTHESIS_03_MODAL_GRADE_DEP_ZIP_SNIPPET1.ipynb)
+[Notebook SNIPPET](./EDA_HYPOTHESIS_03_MODAL_GRADE_DEP_ZIP_SNIPPET1.ipynb)
 
 ---
 
