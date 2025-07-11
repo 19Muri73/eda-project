@@ -47,11 +47,11 @@
 
 This project is part of an assignment during the SPICED BOOTCAMP course, Data Science and AI.
 
-Details: ![EDA ASSIGNMENT](assignment.md)
+Details: [EDA ASSIGNMENT](assignment.md)
 
 ## Presentation EDA-Project  
 
-![Murat Kurt Presentation as Keynote](doc/EDA-Project-Murat-Kurt.key)
+[Murat Kurt Presentation as Keynote](doc/EDA-Project-Murat-Kurt.key)
 
 
 # SETUP 
