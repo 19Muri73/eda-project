@@ -2,6 +2,9 @@
 
 Please read the [motivation](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET1.ipynb).
 
+[Murat Kurt Presentation as Keynote](./doc/EDA-Project-Murat-Kurt.key)
+[Murat Kurt Presentation as PDF](./doc/EDA-Project-Murat-Kurt.pdf)
+
 - **Project period:** 9th – 11th July 2025
 - **Database:** EDA database from SPICED
 
@@ -97,10 +100,6 @@ This project is part of an assignment during the SPICED BOOTCAMP course, Data Sc
 [EDA ASSIGNMENT](assignment.md)
 
 [Column Names, short description](assignment.md)
-
-## Presentation EDA-Project  
-
-[Murat Kurt Presentation as Keynote](doc/EDA-Project-Murat-Kurt.key)
 
 # SETUP 
 
