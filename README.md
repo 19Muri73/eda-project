@@ -92,7 +92,7 @@ Excecute the SQL-statement above, in order to create the file 'house_export_pand
 
 Use [CREATE DB NOTEBOOK](./EDA_00_CREATE_CSV_FILE.ipynb) as template.
 
-Please also download [download](https://simplemaps.com/data/us-zips) uszips.csv for free and add it into the ./data folder.
+Please also [download](https://simplemaps.com/data/us-zips) uszips.csv for free and add it into the ./data folder.
 
 ## Project Assignments
 
