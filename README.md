@@ -1,39 +1,60 @@
-# ds-project-template
 
-Template for creating ds simple projects
 
-## Requirements
+# EDA Project - Murat Kurt
 
-- pyenv
-- python==3.11.3
+- **Project period:** 9th – 11th July 2025
+- **Database:** EDA database from SPICED
 
-## Setup
+## Hypotheses and Methods
 
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
+### Hypothesis 1
+**Hypothesis:** The price depends on the distance to the center coordinates of Seattle, Washington (Downtown).
 
-* setting the python version locally to 3.11.3
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
+**Methods & Charts:**  
+- Calculated the geospatial distance between each property and the Seattle downtown coordinates.
+- Used scatter plots to visualize the relationship between price and distance.
+- Fitted a regression line to observe the trend.
 
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
+---
 
-```bash
-pip freeze > requirements.txt
-```
+### Hypothesis 2
+**Hypothesis:** BOTH, living space and lot size are significant for price.
 
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
+**Methods & Charts:**  
+- Created scatter plots for price vs. living space and price vs. lot size.
+- Applied multiple linear regression to assess the combined impact.
+- Visualized residuals to check model fit.
 
-### Unit testing (Optional)
+---
 
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
+### Hypothesis 3
+**Hypothesis:** The distribution of grade depends on the ZIP code (981..).
 
-```bash
-pytest
-```
+**Methods & Charts:**  
+- Grouped data by ZIP code starting with 981.
+- Used boxplots and histograms to compare grade distributions across ZIP codes.
+- Conducted ANOVA test to verify if differences are statistically significant.
 
-This command will execute all the functions in your project that start with the word **test**.
+---
+
+**Prepared by:** Murat Kurt
+
+## DATA Overview
+
+![EDA DB DIAGRAM](img/db_diagram_eda.png)
+
+## Project Assignments
+
+This project is part of an assignment during the SPICED BOOTCAMP course, Data Science and AI.
+
+Details: ![EDA ASSIGNMENT](assignment.md)
+
+## Presentation EDA-Project  
+
+![Murat Kurt Presentation as Keynote](doc/EDA-Project-Murat-Kurt.key)
+
+
+# SETUP 
 
 ## Set up your Environment
 This repo contains a requirements.txt file with a list of all the packages and dependencies you will need.
