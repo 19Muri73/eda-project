@@ -1,6 +1,6 @@
-
-
 # EDA Project - Murat Kurt
+
+Please read the [motivation](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET1.ipynb).
 
 - **Project period:** 9th – 11th July 2025
 - **Database:** EDA database from SPICED
@@ -15,6 +15,10 @@
 - Used scatter plots to visualize the relationship between price and distance.
 - Fitted a regression line to observe the trend.
 
+[Notebook SNIPPET 1](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_SNIPPET1.ipynb)
+
+[Notebook SNIPPET 2](./MURAT_HYPOTHESIS_01_DISTANZ_PRICE_V2_SNIPPET2.ipynb)
+
 ---
 
 ### Hypothesis 2
@@ -25,6 +29,8 @@
 - Applied multiple linear regression to assess the combined impact.
 - Visualized residuals to check model fit.
 
+[Notebook SNIPPET](./MURAT_HYPOTHESIS_02_LIVINGSPACE_SNIPPET.ipynb)
+
 ---
 
 ### Hypothesis 3
@@ -34,6 +40,8 @@
 - Grouped data by ZIP code starting with 981.
 - Used boxplots and histograms to compare grade distributions across ZIP codes.
 - Conducted ANOVA test to verify if differences are statistically significant.
+
+[Notebook SNIPPET](./MURAT_HYPOTHESIS_03_MODAL_GRADE_DEP_ZIP_SNIPPET1.ipynb)
 
 ---
 
@@ -47,12 +55,13 @@
 
 This project is part of an assignment during the SPICED BOOTCAMP course, Data Science and AI.
 
-Details: [EDA ASSIGNMENT](assignment.md)
+[EDA ASSIGNMENT](assignment.md)
+
+[Column Names, short description](assignment.md)
 
 ## Presentation EDA-Project  
 
 [Murat Kurt Presentation as Keynote](doc/EDA-Project-Murat-Kurt.key)
-
 
 # SETUP 
 
